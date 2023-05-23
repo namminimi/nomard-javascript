@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Random Number Game</h1>
+    <form id="login-form">
+        <div id="generateNumber">
+            <span>Generate a number between 0 and</span>
+            <input type="number" required placeholder="숫자 범위를 입력해주세요">
+        </div>
+        <div id="guessNumber">
+            <span>Guess the number</span>
+            <input type="number" required placeholder="번호를 입력해주세요">
+            <button>login</button>
+        </div>
+    </form>
+    <div id="result" class="hidden">
+        <p id="choseNumber">asdsa</p>
+        <h2 id="winner"></h2>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
